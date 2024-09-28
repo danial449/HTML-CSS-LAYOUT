@@ -1,0 +1,74 @@
+/* Responsive screens */
+
+
+/* laptop---------1024px */
+
+@media (max-width: 1024px) {
+    .parent3 {
+        margin-top: 20px;
+    }
+    .parent3 .overlay {
+        position: relative;
+    }
+    .parent3 .child1 img {
+        max-height: 300px;
+        position: absolute;
+        top: 4%;
+        left: 13%;
+    }
+    .parent3 .overlay .child2 {
+        flex-basis: 40%;
+    }
+    .parent3 .overlay .child2 h3 {
+        font-size: 1.8rem;
+        padding-top: 10px;
+    }
+    .parent3 .overlay .child2 p {
+        font-size: 10px;
+    }
+    .parent4 {
+        max-width: 80%;
+        margin: auto;
+    }
+    .parent5 .child2 p {
+        font-size: 11px;
+    }
+    .parent6 img {
+        height: 203.5px;
+    }
+    .parent7 .child2 .subchild1 img {
+        max-width: 200px;
+        height: 302px;
+    }
+    .parent8 {
+        min-height: 55vh;
+    }
+    .parent8 .child2 p {
+        padding: 4px 20px;
+        font-size: 13px;
+    }
+    .parent8 .child1 .item h5 {
+        padding: 3px 6px;
+    }
+    .parent8 .child1 .item .box {
+        height: 10px;
+        margin: 5px 6px;
+    }
+    .parent9 {
+        width: 80%;
+        margin: auto;
+    }
+    .parent10 {
+        min-height: 90vh;
+    }
+    .parent10 .overlay {
+        min-height: 90vh;
+    }
+    .parent10 .child1 .subchild h2 {
+        font-size: 2.0rem;
+    }
+    .parent4 .child1 .subchild p {
+        font-size: 12px;
+        padding: 0% 15%;
+    }
+}

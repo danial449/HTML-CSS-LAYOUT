@@ -1,0 +1,907 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-size: 0.7rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header nav ul li img {
+    max-width: 80px;
+    max-height: 50px;
+}
+
+header nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0.3rem 1.3rem;
+    border-radius: 20px;
+    transition: all 0.7s ease-in-out;
+    color: rgb(0, 113, 128);
+}
+
+header nav ul li a:hover {
+    color: black;
+    background-color: gold;
+    transition: all 0.7s ease-in-out;
+}
+
+header .parent1 {
+    min-height: 80vh;
+    background-image: url("../img/Slider\ Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.parent1 .overlay {
+    min-height: 80vh;
+    background-color: rgba(12, 35, 37, 0.788);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+header .parent1 .child {
+    flex-basis: 50%;
+}
+
+header .parent1 .child h6 {
+    font-size: 12px;
+    font-weight: lighter;
+    padding: 1px 0px;
+}
+
+header .parent1 .child h6 span {
+    color: gold;
+    font-weight: bolder;
+}
+
+header .parent1 .child h1 {
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-weight: 500;
+    padding: 1px 0px;
+}
+
+header .parent1 .child p {
+    font-weight: lighter;
+    padding-bottom: 26px;
+    font-size: 13px;
+}
+
+header .parent1 .child a {
+    text-decoration: none;
+    font-size: 13px;
+    padding: 4px 15px;
+    border-radius: 20px;
+    color: black;
+    background-color: white;
+    text-transform: uppercase;
+    color: gold;
+    transition: all 0.7s ease-in-out;
+}
+
+header .parent1 .child a:hover {
+    background-color: gold;
+    color: black;
+    transition: all 0.7s ease-in-out;
+}
+
+header .parent1 .child .subchild {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-right: 7px;
+}
+
+header .parent1 .child .subchild li {
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+    color: white;
+}
+
+header .parent1 .child .subchild li:hover {
+    color: gold;
+}
+
+
+/* section services */
+
+.parent2 {
+    max-width: 70%;
+    min-height: 70vh;
+    margin: auto;
+}
+
+.parent2 .child1 {
+    text-align: center;
+    padding: 2.3rem 0rem;
+}
+
+.parent2 .child1 .subchild h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: rgb(0, 113, 128);
+}
+
+.parent2 .child1 .subchild img {
+    margin: 10px 0px;
+    width: 70px;
+}
+
+.parent2 .child1 .subchild p {
+    font-size: 12px;
+    padding: 0% 20%;
+}
+
+.parent2 .child2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.parent2 .child2 div {
+    flex-basis: 25%;
+}
+
+.parent2 .child2 h4 {
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 4px 0px;
+}
+
+.parent2 .child2 p {
+    font-size: 12px;
+    padding: 5px 14px;
+}
+
+.parent2 .subparent {
+    position: relative;
+}
+
+.parent2 .subparent .bg {
+    position: absolute;
+    top: 37px;
+    left: 100px;
+    width: 75%;
+    height: 4px;
+    background-color: yellow;
+    z-index: -1;
+}
+
+
+/* section */
+
+.parent3 {
+    min-height: 50vh;
+    background-image: url("../img/We\ Make\,Background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.parent3 .overlay {
+    min-height: 50vh;
+    background-color: rgba(12, 29, 37, 0.788);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.parent3 .overlay .child1 {
+    flex-basis: 30%;
+    max-height: 265px;
+}
+
+.parent3 .overlay .child2 {
+    flex-basis: 40%;
+    min-height: 250px;
+}
+
+.parent3 .overlay .child2 h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: gold;
+    font-weight: 500;
+}
+
+.parent3 .overlay .child2 p {
+    padding: 20px 70px 20px 0px;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.parent3 .overlay .child2 ul {
+    list-style-type: none;
+    padding: 0px 20px;
+}
+
+.parent3 .overlay .child2 ul li h5 {
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 30px;
+    padding-left: 20px;
+    font-weight: 300;
+}
+
+.parent3 .overlay .child2 ul li .size {
+    font-size: 10px;
+    padding: 3px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.parent3 .btn {
+    min-height: 40px;
+    background-color: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent3 .btn a {
+    text-decoration: none;
+    font-size: 13px;
+    padding: 4px 15px;
+    border-radius: 20px;
+    color: black;
+    background-color: white;
+    text-transform: uppercase;
+    color: gold;
+}
+
+.parent3 .btn a:hover {
+    background-color: black;
+    color: white;
+    transition: all 0.7s ease-in-out;
+}
+
+
+/* portfolio */
+
+.parent4 {
+    max-width: 70%;
+    margin: auto;
+}
+
+.parent4 .child1 {
+    text-align: center;
+    padding: 2.3rem 0rem;
+}
+
+.parent4 .child1 .subchild h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: rgb(0, 113, 128);
+}
+
+.parent4 .child1 .subchild img {
+    margin: 10px 0px;
+    width: 70px;
+}
+
+.parent4 .child1 .subchild p {
+    font-size: 12px;
+    padding: 0% 20%;
+}
+
+.parent4 .child2 {
+    margin: 50px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 200px 200px 200px 50px;
+    gap: 20px;
+}
+
+.parent4 .firstsubchild {
+    grid-column: 1/ -1;
+}
+
+.parent4 .child2 .firstsubchild ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.parent4 .child2 .firstsubchild ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    padding: 7px 15px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: all 0.7s ease-in-out;
+}
+
+.parent4 .child2 .firstsubchild ul li:hover a {
+    background-color: gold;
+    color: white;
+    transition: background-color 0.7s ease-in-out;
+}
+
+.parent4 .child2 .box img {
+    width: 100%;
+    height: 100%;
+}
+
+.parent4 .lastchild {
+    grid-column: 1/-1;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.parent4 .lastchild a {
+    text-decoration: none;
+    color: black;
+    background-color: gold;
+    padding: 5px 15px;
+    border-radius: 30px;
+    color: white;
+    transition: all 0.7s ease-in-out;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.parent4 .lastchild a:hover {
+    background-color: black;
+    transition: all 0.7s ease-in-out;
+}
+
+.parent5 {
+    min-height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: gold;
+}
+
+.parent5 .child1 {
+    min-height: 40vh;
+    flex-basis: 30%;
+}
+
+.parent5 .child1 video {
+    width: 100%;
+    min-height: 250px;
+}
+
+.parent5 .child2 {
+    min-height: 35vh;
+    flex-basis: 39%;
+    margin-left: 20px;
+}
+
+.parent5 .child2 h4 {
+    text-transform: uppercase;
+    padding: 4px 0px;
+}
+
+.parent5 .child2 h6 {
+    text-transform: capitalize;
+    padding: 4px 0px;
+}
+
+.parent5 .child2 p {
+    font-size: 13px;
+    color: whitesmoke;
+    padding: 5px 0px;
+}
+
+.parent5 .child2 .para {
+    margin-bottom: 20px;
+}
+
+.parent5 .child2 a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+}
+
+.parent5 .child2 a:hover {
+    background-color: black;
+    color: gold;
+    transition: all 0.7s ease-in-out;
+}
+
+.parent6 {
+    text-align: center;
+    background-color: rgb(50, 70, 81);
+    color: white;
+    height: 73vh;
+}
+
+.parent6 .child1 h3 {
+    text-transform: uppercase;
+    padding: 50px 0px 10px;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.parent6 .child1 p {
+    font-size: 13px;
+    padding: 2px 0px 20px;
+    font-family: cursive;
+}
+
+.parent6 .child1 a {
+    text-decoration: none;
+    color: gold;
+    background-color: white;
+    padding: 4px 15px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    transition: all 0.6s ease-in-out;
+}
+
+.parent6 .child1 a:hover {
+    color: white;
+    background-color: gold;
+    transition: all 0.6s ease-in-out;
+}
+
+.parent6 img {
+    margin-top: 20px;
+    width: 70%;
+    height: 260.5px;
+}
+
+.parent7 .child1 {
+    text-align: center;
+    padding: 2.3rem 0rem;
+}
+
+.parent7 .child1 .subchild h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: rgb(0, 113, 128);
+}
+
+.parent7 .child1 .subchild img {
+    margin: 10px 0px;
+    width: 70px;
+}
+
+.parent7 .child1 .subchild p {
+    font-size: 14px;
+    padding: 0% 25%;
+}
+
+.parent7 .child2 {
+    background-image: url("../img/man2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+.parent7 .child2 .overlay {
+    background-color: rgba(255, 255, 255, 0.63);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent7 .child2 .subchild1 {
+    flex-basis: 15%;
+    max-height: 300px;
+}
+
+.parent7 .child2 .subchild1 img {
+    max-width: 200px;
+    height: 300px;
+}
+
+.parent7 .child2 .subchild2 {
+    flex-basis: 45%;
+    min-height: 300px;
+    margin-left: 10px;
+}
+
+.parent7 .child2 .subchild2 h2 {
+    text-transform: capitalize;
+    color: gold;
+    padding: 14px 10px;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.parent7 .child2 .subchild2 h4 {
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 0px 10px;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.parent7 .child2 .subchild2 p {
+    padding: 10px;
+    font-weight: lighter;
+}
+
+.parent7 .child2 .subchild2 i {
+    padding: 4px;
+    margin: 10px;
+    border: 1px solid grey;
+    border-radius: 50%;
+    font-size: 12px;
+}
+
+.parent8 {
+    background-color: rgb(50, 70, 81);
+    min-height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+}
+
+.parent8 .child1 {
+    flex-basis: 32%;
+}
+
+.parent8 .child1 h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: gold;
+    padding: 20px;
+}
+
+.parent8 .child1 .item {
+    padding: 4px 0px;
+}
+
+.parent8 .child1 .item h5 {
+    text-transform: uppercase;
+    padding: 3px 6px;
+    color: white;
+    font-weight: 400;
+}
+
+.parent8 .child1 .item .box {
+    height: 12px;
+    margin: 5px 6px;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, gold 90%, white 10%);
+}
+
+.parent8 .child2 {
+    flex-basis: 32%;
+}
+
+.parent8 .child2 h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 24px;
+    color: gold;
+}
+
+.parent8 .child2 p {
+    padding: 10px 20px;
+    font-size: 15px;
+    color: white;
+    font-weight: lighter;
+}
+
+.parent9 {
+    width: 70%;
+    margin: auto;
+}
+
+.parent9 .child1 {
+    text-align: center;
+    padding: 2.3rem 0rem;
+}
+
+.parent9 .child1 .subchild h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: rgb(0, 113, 128);
+}
+
+.parent9 .child1 .subchild img {
+    margin: 10px 0px;
+    width: 50px;
+}
+
+.parent9 .child1 .subchild p {
+    font-size: 12px;
+    padding: 0% 20%;
+}
+
+.parent9 .child2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.parent9 .child2 .box {
+    border-bottom: 1px solid gray;
+    flex-basis: 29%;
+    margin: 10px;
+}
+
+.parent9 .child2 #box1 {
+    flex-basis: 45%;
+}
+
+.parent9 .child2 #box2 {
+    flex-basis: 45%;
+}
+
+.parent9 .child2 .box img {
+    width: 100%;
+    height: 150px;
+}
+
+.parent9 .child2 .box h3 {
+    color: gold;
+    text-transform: capitalize;
+    padding: 6px 0px;
+}
+
+.parent9 .child2 .box h5 {
+    text-transform: capitalize;
+    padding: 6px 0px;
+    font-size: 12px;
+}
+
+.parent9 .child2 .box p {
+    padding: 10px 0px;
+    font-size: 12px;
+}
+
+.parent9 .child2 .box h5 span {
+    color: gold;
+}
+
+.parent9 .child2 .box a {
+    text-decoration: none;
+    float: right;
+    padding: 0px 10px;
+    color: gold;
+    margin-bottom: 10px;
+}
+
+.parent9 .child2 .box a:hover {
+    color: black;
+}
+
+.btn2 {
+    text-align: center;
+    margin: 20px 0px 50px;
+}
+
+.btn2 a {
+    background-color: gold;
+    color: black;
+    border-radius: 20px;
+    padding: 5px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    transition: all 0.7s ease-in-out;
+}
+
+.btn2 a:hover {
+    background-color: black;
+    color: white;
+    transition: all 0.7s ease-in-out;
+}
+
+.news {
+    background-color: gold;
+    text-align: center;
+    min-height: 100px;
+}
+
+.news h3 {
+    text-transform: uppercase;
+    padding: 18px 0px;
+    color: white;
+}
+
+.news input {
+    border: none;
+    border-radius: 20px;
+    padding: 3px 10px;
+    outline: none;
+    width: 20%;
+}
+
+.btn3 {
+    margin-left: 30px;
+    display: inline;
+}
+
+.btn3 a {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 5px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 10px;
+    transition: all 0.7s ease-in-out;
+}
+
+.btn3 a:hover {
+    background-color: black;
+    color: white;
+    transition: all 0.7s ease-in-out;
+}
+
+.parent10 {
+    background-image: url("../img/Contact\ Background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+}
+
+.parent10 .overlay {
+    min-height: 80vh;
+    background-color: rgba(12, 29, 37, 0.788);
+    color: white;
+}
+
+.parent10 .child1 {
+    text-align: center;
+    padding: 2.3rem 0rem;
+}
+
+.parent10 .child1 .subchild h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.parent10 .child1 .subchild img {
+    margin: 10px 0px;
+    width: 70px;
+}
+
+.parent10 .child1 .subchild p {
+    font-size: 12px;
+    padding: 0% 24%;
+}
+
+.parent10 .child2 form .items {
+    width: 60%;
+    min-height: 200px;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 1fr 4fr 1fr;
+    grid-template-columns: 32% 31% 32%;
+    gap: 20px;
+}
+
+form .item {
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+form #itm {
+    grid-column: 1/-1;
+}
+
+form .btn4 {
+    grid-column: 1/-1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent10 .child2 form input {
+    border: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(12, 29, 37, 0);
+    padding: 10px;
+    color: gold;
+}
+
+.parent10 .child2 form a {
+    padding: 3px 12px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.7s ease-in-out;
+}
+
+.parent10 .child2 form a:hover {
+    background-color: gold;
+    color: white;
+    transition: all 0.7s ease-in-out;
+}
+
+
+/* footer */
+
+footer {
+    min-height: 30vh;
+    background-color: rgba(0, 0, 0, 0.89);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    text-align: center;
+}
+
+footer .box h5 {
+    font-weight: 400;
+    padding: 5px 0px;
+}
+
+footer .box .icon {
+    padding: 10px 0px;
+}
+
+footer .box .icon i {
+    background-color: white;
+    color: black;
+    padding: 6px;
+    font-size: 13px;
+    border-radius: 50%;
+    margin: 0px 4px;
+}
+
+footer .box .icon i:hover {
+    background-color: gold;
+    color: white;
+}
+
+footer .box h6 {
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 5px 0px;
+}

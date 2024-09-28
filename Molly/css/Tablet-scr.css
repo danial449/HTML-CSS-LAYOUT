@@ -1,0 +1,153 @@
+    /* Responsive screens */
+    /* Tablet---------768px */
+    
+    @media(max-width:768px) {
+        header .parent1 .child p {
+            font-size: 11px;
+        }
+        header .parent1 .child {
+            flex-basis: 55%;
+        }
+        header .parent1 .child .subchild li {
+            width: 7px;
+            height: 7px;
+            padding: 7px;
+        }
+        .parent2 {
+            max-width: 80%;
+        }
+        .parent2 .child1 .subchild p {
+            padding: 0% 6%;
+        }
+        .parent2 .child2 p {
+            font-size: 10px;
+        }
+        .parent3 {
+            margin-top: 20px;
+        }
+        .parent3 .overlay {
+            position: relative;
+        }
+        .parent3 .child1 img {
+            max-height: 270px;
+            position: absolute;
+            top: 12%;
+            left: 13%;
+        }
+        .parent3 .overlay .child2 {
+            flex-basis: 40%;
+            margin-left: 20px;
+        }
+        .parent3 .overlay .child2 h3 {
+            font-size: 1.4rem;
+            padding-top: 20px;
+        }
+        .parent3 .overlay .child2 ul li h5 {
+            font-size: 13px;
+            line-height: 20px;
+            padding-left: 20px;
+        }
+        .parent3 .overlay .child2 ul li .size {
+            font-size: 7px;
+            padding: 3px;
+        }
+        .parent3 .btn a {
+            font-size: 11px;
+        }
+        .parent4 .child1 .subchild p {
+            font-size: 12px;
+            padding: 0% 10%;
+        }
+        .parent4 .child2 {
+            margin: 20px 0px;
+            grid-template-rows: 50px 150px 150px 150px 50px;
+        }
+        .parent5 .child1 {
+            flex-basis: 35%;
+        }
+        .parent5 .child1 video {
+            min-height: 220px;
+        }
+        .parent5 .child2 p {
+            font-size: 10px;
+            padding: 3px 0px;
+        }
+        .parent6 .child1 h3 {
+            font-size: 1.6rem;
+        }
+        .parent6 .child1 p {
+            font-size: 11px;
+        }
+        .parent6 .child1 a {
+            padding: 4px 15px;
+            font-size: 11px;
+        }
+        .parent6 img {
+            margin-top: 20px;
+            width: 75%;
+            height: 214.7px;
+        }
+        .parent7 {
+            height: 80vh;
+            margin: auto;
+        }
+        .parent7 .child1 .subchild p {
+            padding: 0% 15%;
+        }
+        .parent7 .child2 p {
+            font-size: 10px;
+        }
+        .parent7 .child2 .subchild1 img {
+            width: 200px;
+            height: 205px;
+        }
+        .parent7 .child1 {
+            padding: 1.7rem 0rem;
+        }
+        .parent7 .child2 .subchild2 p {
+            padding: 10px 40px 10px 10px;
+        }
+        .parent8 {
+            justify-content: space-evenly;
+        }
+        .parent8 .child1 {
+            flex-basis: 40%;
+        }
+        .parent8 .child2 {
+            flex-basis: 40%;
+        }
+        .parent8 .child2 h3 {
+            padding: 24px 0px;
+        }
+        .parent8 .child2 p {
+            font-size: 12px;
+            padding: 10px 0px;
+        }
+        .parent9 .child1 .subchild p {
+            padding: 0% 13%;
+        }
+        .parent9 .child2 p {
+            font-size: 10px;
+        }
+        .parent9 {
+            width: 90%;
+        }
+        .parent10 .child1 .subchild p {
+            padding: 0% 16%;
+        }
+        .parent10 .child2 p {
+            font-size: 10px;
+        }
+        .news h3 {
+            padding: 15px 0px;
+            font-size: 18px;
+        }
+        .btn3 {
+            margin-left: 20px;
+        }
+        .parent10 .child2 form .items {
+            grid-template-columns: 32% 32% 32%;
+            width: 70%;
+            margin: auto;
+        }
+    }
